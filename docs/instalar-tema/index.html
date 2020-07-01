@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Configuración - Nombre Alumno</title>
+  <title>Instalar Tema - Nombre Alumno</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="INGRESAR-URL-PROPIA-DE-GITHUB/favicon.png">
@@ -90,11 +90,11 @@
   <h4>Documentación</h4>
   <ul>
     
-    <li class="">
+    <li class="active ">
       <a href="INGRESAR-URL-PROPIA-DE-GITHUB/docs/instalar-tema/">Instalar Tema</a>
     </li>
     
-    <li class="active ">
+    <li class="">
       <a href="INGRESAR-URL-PROPIA-DE-GITHUB/docs/configuracion/">Configuración</a>
     </li>
     
@@ -117,35 +117,20 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Configuración</h1>
+<h1 class="title">Instalar Tema</h1>
 <div class="content ">
   <!-- raw HTML omitted -->
-<h2 id="highlighting-de-código">Highlighting de Código</h2>
-<p>Este tema utiliza el resaltado de código incorporado que se incluye con Hugo. <a href="https://gohugo.io/content-management/syntax-highlighting/">https://gohugo.io/content-management/syntax-highlighting/</a></p>
-<p>Puede insertar fragmentos de código en cualquier Markdown utilizando la sintaxis de highlighting, es decir:</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">```
-insertar código acá
-```
-</code></pre></div><p>Puede especificar el lenguaje de programación agregando una declaración después de los backticks</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">```html
-insertar código acá
-```
-</code></pre></div><h3 id="opciones-de-resaltado-de-código">Opciones de resaltado de código</h3>
-<p>Las opciones de resaltado de código se configuran en <code>config.toml</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">pygmentsCodeFences</span> <span class="p">=</span> <span class="kc">true</span>
-<span class="nx">pygmentsCodefencesGuessSyntax</span> <span class="p">=</span> <span class="kc">true</span>
-<span class="nx">pygmentsUseClasses</span> <span class="p">=</span> <span class="kc">true</span>
-</code></pre></div><h2 id="menú-principal">Menú principal</h2>
-<p>Configure el menú principal editando el <code>config.toml</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Inicio&#34;</span>
-    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/&#34;</span>
-    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
-
-<span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-    <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Documentación&#34;</span>
-    <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/docs/&#34;</span>
-    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
+<h2 id="crear-un-nuevo-sitio-hugo">Crear un nuevo sitio Hugo</h2>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo new site misitio
+</code></pre></div><p>Esto creará un nuevo sitio de Hugo en la carpeta <code>misitio</code>.</p>
+<h2 id="instalar-sitio-hugo">Instalar sitio Hugo</h2>
+<p>Copie o clone con git el sitio en la carpeta carpeta <code>misitio</code>.</p>
+<h2 id="ejecutar-hugo">Ejecutar Hugo</h2>
+<p>Para el desarrollo de manera local, ejecute el servidor incorporado con Hugo utilizando la terminal de comandos.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo server
+</code></pre></div><p>Ahora ingresa a <a href="http://localhost:1313"><code>localhost:1313</code></a> en la barra de URL de su navegador.</p>
+<p>Después de editar el contenido y generar el sitio web, obtenga el compilado de archivos web a través del siguiente comando en la terminal. Este comando generará una carpeta <code>public</code> al interior de la carpeta del sitio web.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo
 </code></pre></div>
 </div>
 </div>
