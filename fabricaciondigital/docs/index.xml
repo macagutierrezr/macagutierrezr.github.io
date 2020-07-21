@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Fabricación Silla Fresia</title>
+      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/silla-fresia/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/silla-fresia/</guid>
+      <description>Mecanizado CNC silla fresia</description>
+    </item>
+    
+    <item>
       <title>Instalar Tema</title>
       <link>https://macagutierrezr.github.io//fabricaciondigital/docs/instalar-tema/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
@@ -63,15 +72,6 @@
       
       <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/objetivos/</guid>
       <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/silla-fresia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/silla-fresia/</guid>
-      <description>title: &amp;lsquo;Fabricación Silla Fresia&amp;rsquo; date: 2020-06-17T19:30:08+10:00 draft: false weight: 2 summary: Mecanizado CNC silla fresia CNC significa control numérico computarizado. Es así como mecanizado CNC se define como un mecanismo de automatización mediante a comandos de softwares que siguen las actividades de la herramienta y el mecanizado.</description>
     </item>
     
   </channel>
