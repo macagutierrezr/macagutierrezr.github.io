@@ -12,30 +12,21 @@
     
     
     <item>
-      <title>Fabricación Silla Fresia</title>
-      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/silla-fresia/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/silla-fresia/</guid>
-      <description>Mecanizado CNC silla fresia</description>
-    </item>
-    
-    <item>
-      <title>Instalar Tema</title>
-      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/instalar-tema/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/instalar-tema/</guid>
-      <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
-    </item>
-    
-    <item>
-      <title>Planimetrías Silla</title>
+      <title>01 Planimetrías</title>
       <link>https://macagutierrezr.github.io//fabricaciondigital/docs/planimetr%C3%ADas-silla/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/planimetr%C3%ADas-silla/</guid>
       <description>Planimetrías de silla en fusion 360</description>
+    </item>
+    
+    <item>
+      <title>02 Mecanizado CNC</title>
+      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/silla-fresia/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/silla-fresia/</guid>
+      <description>Mecanizado CNC silla fresia</description>
     </item>
     
     <item>
