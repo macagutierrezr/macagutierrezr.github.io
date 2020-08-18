@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Objetivos del Curso - Macarena Gutiérrez Rojo</title>
+  <title>07 Molde 3D Macetero - Macarena Gutiérrez Rojo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://macagutierrezr.github.io/fabricaciondigital/favicon.png">
@@ -122,11 +122,11 @@
       <a href="https://macagutierrezr.github.io//fabricaciondigital/docs/markdown/">Ejemplos Markdown</a>
     </li>
     
-    <li class="active ">
+    <li class="">
       <a href="https://macagutierrezr.github.io//fabricaciondigital/docs/objetivos/">Objetivos del Curso</a>
     </li>
     
-    <li class="">
+    <li class="active ">
       <a href="https://macagutierrezr.github.io//fabricaciondigital/docs/macetero/">07 Molde 3D Macetero</a>
     </li>
     
@@ -137,19 +137,62 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Objetivos del Curso</h1>
+<h1 class="title">07 Molde 3D Macetero</h1>
 <div class="content ">
-  <p>Objetivos general y específico de Fabricación Digital</p>
-<h3 id="objetivo-general">Objetivo General</h3>
-<ol>
-<li>Comprender y dominar una serie de estrategias de fabricación digital utilizando software CAD/CAM que permitan simular las principales técnicas contemporáneas.</li>
-</ol>
-<h3 id="objetivo-específicos">Objetivo Específicos</h3>
-<ol>
-<li>Comprender e implementar un flujo de trabajo CAD/CAM</li>
-<li>Integrar diversas estrategias de fabricación digital para la simulación de fabricación digital.</li>
-<li>Entender los software de diseño 3D desde una perspectiva de fabricación.</li>
-</ol>
+  <h2 id="materiales-orgánicos">Materiales orgánicos</h2>
+<ul>
+<li>café</li>
+<li>papel de cartón</li>
+<li>harina</li>
+<li>clara de huevo</li>
+<li>maicena</li>
+</ul>
+<p><a href="#top">▲ Volver Arriba</a></p>
+<hr>
+<h2 id="proceso-modelado-3d">Proceso modelado 3D</h2>
+<p>Hicimos el modelado en el programa Rhinoceros 3D. Para comenzar, el primer paso fue modelar el macetero. Para esto, creamos curvas con el diseño preestablecido y las medidas que queríamos que este tuviera. Las bases son de 80 mm x 80 mm, con una altura de 80 mm.</p>
+<p><img src="/fabricaciondigital/img/archivo/rhino-15.png" alt="imagen"></p>
+<p>Luego aplicamos un <strong>loft</strong> a las curvas para crear la superficie.</p>
+<p><img src="/fabricaciondigital/img/archivo/rhino-16.png" alt="imagen"></p>
+<p>Con el comando <strong>cap</strong>, rellenamos la figura para obtener un objeto sólido, al cuál le aplicamos un <strong>shell</strong> de 7 mm para convertirlo en un objeto sólido pero hueco.</p>
+<p><img src="/fabricaciondigital/img/archivo/rhino-17.png" alt="imagen"></p>
+<p>Teniendo el macetero listo, procedimos a crear el molde de este. Para esto, dibujamos un cubo un poco más grande que el macetero para que lo contuviera dentro y realizamos un <strong>boolean difference</strong> entre estas dos piezas.</p>
+<p><img src="/fabricaciondigital/img/archivo/rhino-18.png" alt="imagen"></p>
+<p>El resultado del paso anterior, son dos piezas (aparte del macetero): el molde exterior del macetero, que vendría siendo el molde negativo, y el contra-molde, que sería el molde positivo.
+Primero tomamos el molde exterior y lo separamos por la mitad con el comando <strong>split</strong> y le agregamos unos pequeños tabs redondos para que se mantenga firme cuando se esté formando el macetero.</p>
+<p><img src="/fabricaciondigital/img/archivo/rhino-19.png" alt="imagen"></p>
+<p>Luego, tomamos la contraparte del molde, le agregamos dos cilindros en la parte inferior que ayudarán a crear dos pequeños orificios para que cuando la planta sea regada el agua pueda filtrar y no se ahogue la planta. Además, le creamos una manilla para poder facilitar el agarre y sustracción de dicha parte al momento de separar el molde y obtener el macetero.</p>
+<p><img src="/fabricaciondigital/img/archivo/rhino-20.png" alt="imagen"></p>
+<p>Y este sería el resultado obtenido:</p>
+<p><img src="/fabricaciondigital/img/archivo/rhino-21.png" alt="imagen"></p>
+<p><a href="#top">▲ Volver Arriba</a></p>
+<hr>
+<h2 id="planimetrías">Planimetrías</h2>
+<p><img src="/fabricaciondigital/img/archivo/maceterosje-10.png" alt="imagen">
+<img src="/fabricaciondigital/img/archivo/maceterosje-11.png" alt="imagen">
+<img src="/fabricaciondigital/img/archivo/maceterosje-12.png" alt="imagen">
+<img src="/fabricaciondigital/img/archivo/maceterosje-13.png" alt="imagen">
+<img src="/fabricaciondigital/img/archivo/maceterosje-14.png" alt="imagen"></p>
+<p><a href="#top">▲ Volver Arriba</a></p>
+<hr>
+<h2 id="encaje-de-las-piezas">Encaje de las piezas</h2>
+<p>aquí las imagenes de la isi xdxd son 2</p>
+<p><a href="#top">▲ Volver Arriba</a></p>
+<hr>
+<h2 id="modelo-3d">Modelo 3D</h2>
+<div>
+    <iframe 
+    src="https://alumnos2187.autodesk360.com/shares/public/SH56a43QTfd62c1cd9681419437f4ae93d03?mode=embed" 
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+
+<p><a href="#top">▲ Volver Arriba</a></p>
 
 </div>
 </div>
