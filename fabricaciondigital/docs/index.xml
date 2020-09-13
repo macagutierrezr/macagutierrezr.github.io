@@ -57,39 +57,12 @@
     </item>
     
     <item>
-      <title>Configuración</title>
-      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/configuracion/</link>
+      <title>09 Examen - Allelo</title>
+      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/09-examen-allelo/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/configuracion/</guid>
-      <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
-    </item>
-    
-    <item>
-      <title>Ejemplo Shortcodes</title>
-      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/ejemplo/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/ejemplo/</guid>
-      <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
-    </item>
-    
-    <item>
-      <title>Ejemplos Markdown</title>
-      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/markdown/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/markdown/</guid>
-      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
-    </item>
-    
-    <item>
-      <title>Objetivos del Curso</title>
-      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/objetivos/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/objetivos/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
+      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/09-examen-allelo/</guid>
+      <description>Presentación de nuestro producto. Contenedor con los resultados, formato de producto, haciendo énfasis en los alcances del producto final. (Fotos, renders, fotomontajes, planimetrías, guías de uso, manuales, marca, gráficas, logo etc…)</description>
     </item>
     
     <item>
@@ -108,6 +81,15 @@
       
       <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/macatero2/</guid>
       <description>Nuevo intento, luego del feedback, de un modelado 3D del molde en positivo y negativo para poder obtener un macetero.</description>
+    </item>
+    
+    <item>
+      <title>10 Examen - Bonus</title>
+      <link>https://macagutierrezr.github.io//fabricaciondigital/docs/10-examen-bonus/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagutierrezr.github.io//fabricaciondigital/docs/10-examen-bonus/</guid>
+      <description>BONUS Diseño y registro del proceso CNC, de una pieza que complementa las funciones del macetero. En este caso, platito para el agua (registro del proceso estilo tutorial, renders, fotomontajes, planimetrías).</description>
     </item>
     
   </channel>
